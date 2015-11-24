@@ -1,0 +1,34 @@
+{
+  "name": "nativescript-firebase",
+  "version": "0.0.1",
+  "description": "A {N} compatible wrapper for the Firebase node.js sdk",
+  "main": "firebase.js",
+  "nativescript": {
+    "platforms": {
+      "ios": "1.3.0",
+      "android": "1.3.0"
+    },
+    "id": "com.lyonzy.nativescriptfirebase"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyonzy/nativescript-firebase.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "Firebase"
+  ],
+  "author": "Matt Lyons, lyonzy.com",
+  "license": {
+    "type": "MIT"
+  },
+  "dependencies": {
+    "buffer": "^3.5.2",
+    "events": "^1.1.0",
+    "firebase": "^2.3.2",
+    "nativescript-websockets": "git+https://github.com/lyonzy/nativescript-websockets.git",
+    "next-tick": "^0.2.2",
+    "readable-stream": "^2.0.4",
+    "util": "^0.10.3"
+  }
+}
