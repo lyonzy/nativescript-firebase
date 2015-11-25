@@ -8,7 +8,7 @@ This module is licensed under the MIT license. Firebase and other modules have d
 
 ## Installation 
 
-    tns plugin add git+https://github.com/lyonzy/nativescript-firebase.git  
+    tns plugin add nativescript-firebase 
 
 ## Usage
 
