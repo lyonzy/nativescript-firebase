@@ -1,6 +1,6 @@
 {
   "name": "nativescript-firebase",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A {N} compatible wrapper for the Firebase node.js sdk",
   "main": "firebase.js",
   "nativescript": {
