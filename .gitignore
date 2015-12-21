@@ -42,5 +42,16 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-node_modules/
+node_modules/buffer
+node_modules/events
+node_modules/firebase
+node_modules/nativescript-websockets
+node_modules/util
+
+node_modules/emitter/node_modules
+node_modules/https/node_modules
+node_modules/_stream_duplex/node_modules
+node_modules/_stream_readable/node_modules
+node_modules/_stream_writable/node_modules
+
 npm-debug.log

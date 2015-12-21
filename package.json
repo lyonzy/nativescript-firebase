@@ -18,7 +18,9 @@
     "NativeScript",
     "Firebase"
   ],
-  "author": "Matt Lyons, lyonzy.com",
+  "author": {
+    "name": "Matt Lyons, lyonzy.com"
+  },
   "license": {
     "type": "MIT"
   },
@@ -27,8 +29,26 @@
     "events": "^1.1.0",
     "firebase": "^2.3.2",
     "nativescript-websockets": "git+https://github.com/lyonzy/nativescript-websockets.git",
-    "next-tick": "^0.2.2",
-    "readable-stream": "^2.0.4",
     "util": "^0.10.3"
-  }
+  },
+  "bundledDependencies": [
+    "_stream_duplex",
+    "_stream_readable",
+    "_stream_writable",
+    "emitter",
+    "faye-websocket",
+    "https",
+    "inherits"
+  ],
+  "readmeFilename": "README.md",
+  "gitHead": "866c1883bd7845c2399b48d7ef9ffd6fa4247343",
+  "bugs": {
+    "url": "https://github.com/lyonzy/nativescript-firebase/issues"
+  },
+  "homepage": "https://github.com/lyonzy/nativescript-firebase",
+  "_id": "nativescript-firebase@0.0.2",
+  "scripts": {},
+  "_shasum": "c8f9a7dc88528a7fd50014b6bd27e9a40aa4a430",
+  "_from": "..\\..\\Source\\Repos\\nativescript-firebase-new",
+  "_resolved": "file:..\\..\\Source\\Repos\\nativescript-firebase-new"
 }
