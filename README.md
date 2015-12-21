@@ -57,3 +57,5 @@ This module hasn't been rigorously tested. Here's what's working for me:
  - Setting data with `push()`
 
 Most features should be working, but there might be more bugfixes to come. I'm using this in a project of mine so it'll get further tested as I use it more.
+
+Note that this might have problems with Nativescript 1.5.1 due to [this issue](https://github.com/NativeScript/android-runtime/issues/316). 
